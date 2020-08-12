@@ -1,0 +1,156 @@
+---
+title: "Ultimate Repeat Purchaser"
+bodyClass: bg-cool-gray-200
+link: 'https://www.google.com'
+discountcode: 'HIGHFIVE'
+shopnowlink: 'https://www.google.com'
+fb: "https://facebook.com"
+twitter: "https://twitter.com"
+insta: "https://insta.com"
+pin: "https://pin.com"
+youtube: "https://youtube.com"
+address: 'Caseco | 32 Howden Rd Scarborough, Ontario MIR 3E4'
+googleFonts: 'Open Sans'
+primaryColor: 'email-primary-5'
+---
+
+<extends src="src/layouts/master.html">
+	<block name="template">
+		<table class="w-650 font-opensans sm:w-full mx-auto">
+			<tr>
+				<td align="center" class="bg-white sm:px-0">
+					<table>
+						<tr>
+							<td class="text-center p-20">
+								<a href="{{ page.link }}">
+									<img src="assets/logo.png" width="175" alt="{{ page.title }}">
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="p-20 pb-0 pt-0 sm:px-0">
+								<table>
+                                                                        <tr>
+                                                                                <td>
+                                                                                        <img src="assets/banner5.jpg" alt="" />
+                                                                                </td>
+                                                                        </tr>
+									<tr>
+										<td class="align-middle bg-white py-40 px-20 pb-0 sm:w-auto sm:block sm:p-20 text-center">
+											<h2 class="text-2xl m-0 uppercase text-black">Before we ship <span class="text-{{ page.primaryColor }}">out your order...</span></h2>
+											<p class="m-0 mt-20 text-sm text-dark-gray-8">You've still got 24 hours left before your order finishes processing so if you'd like to add any last minute items to your order, they'll be shipped out together.</p>
+											<p class="my-20 mx-0 border border-{{ page.primaryColor }} border-dashed py-10 px-20 inline-block text-16 text-{{ page.primaryColor }}">{{ page.discountcode }}</p>
+											<p class="text-sm m-0 text-dark-gray-8">Since this is your first order, enter the code above at checkout to unlock an extra $5 off any last minute purchases.</p>
+											<p class="p-0 pt-20 m-0 mt-20"><a class="rounded-full inline-block border border-solid border-{{ page.primaryColor }} text-{{ page.primaryColor }} text-14 uppercase px-40 py-10 no-underline hover:bg-{{ page.primaryColor }} hover:text-white" href="{{ page.shopnowlink }}">Shop Now</a></p>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td class="py-40 pb-0">
+								<table class="w-full" cellspacing="20">
+									<tbody>
+										<tr>
+											<td class="pb-20 text-center sm:px-0">
+												<a href="#"><img class="mb-10" src="assets/img1.jpg" alt="" /></a>
+												<p class="m-0 mt-10"><a class="no-underline text-{{ page.primaryColor }} text-base" href="#">Cases</a></p>
+											</td>
+											<td class="pb-20 text-center sm:px-0">
+												<a href="#"><img class="mb-10" src="assets/img1.jpg" alt="" /></a>
+												<p class="m-0 mt-10"><a class="no-underline text-{{ page.primaryColor }} text-base" href="#">Cases</a></p>
+											</td>
+											<td class="pb-20 text-center sm:px-0">
+												<a href="#"><img class="mb-10" src="assets/img1.jpg" alt="" /></a>
+												<p class="m-0 mt-10"><a class="no-underline text-{{ page.primaryColor }} text-base" href="#">Cases</a></p>
+											</td>
+										</tr>
+										<tr>
+											<td class="pb-20 text-center sm:px-0">
+												<a href="#"><img class="mb-10" src="assets/img1.jpg" alt="" /></a>
+												<p class="m-0 mt-10"><a class="no-underline text-{{ page.primaryColor }} text-base" href="#">Cases</a></p>
+											</td>
+											<td class="pb-20 text-center sm:px-0">
+												<a href="#"><img class="mb-10" src="assets/img1.jpg" alt="" /></a>
+												<p class="m-0 mt-10"><a class="no-underline text-{{ page.primaryColor }} text-base" href="#">Cases</a></p>
+											</td>
+											<td class="pb-20 text-center sm:px-0">
+												<a href="#"><img class="mb-10" src="assets/img1.jpg" alt="" /></a>
+												<p class="m-0 mt-10"><a class="no-underline text-{{ page.primaryColor }} text-base" href="#">Cases</a></p>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td class="bg-white p-20 pb-0 pt-0">
+								<p class="text-center mb-0 text-lg uppercase text-black">Other great perks of <span class="text-{{ page.primaryColor }}">shopping with us</span></p>
+							</td>
+						</tr>
+						<tr>
+							<td class="bg-white pb-0 sm:pb-20">
+								<table class="sm:w-full sm:block" cellspacing="20">
+									<tbody class="sm:w-full sm:block">
+										<tr class="sm:w-auto sm:block sm:px-20">
+											<td class="align-top w-1/3 py-20 px-0 text-center sm:w-auto sm:block border-0 sm:pb-20">
+												<img src="assets/shipping5.png" height="37" alt="" />
+												<p class="text-{{ page.primaryColor }} text-sm mb-0 mt-20 sm:min-h-0">Fast Shipping</p>
+												<p class="text-dark-gray-8 text-xs mb-0 mt-10">Receive your order within 5 - 7 working days!</p>
+											</td>
+											<td class="align-top w-1/3 py-20 px-0 text-center sm:w-auto sm:block border-0 sm:pb-20">
+												<img src="assets/satisfaction5.png" height="37" alt="" />
+												<p class="text-{{ page.primaryColor }} text-sm mb-0 mt-20 sm:min-h-0">Satisfaction Guaranteed</p>
+												<p class="text-dark-gray-8 text-xs mb-0 mt-10">Have any issues? We reply within 1 working day and offer hassle free returns, exchanges or refunds.</p>
+											</td>
+											<td class="align-top w-1/3 py-20 px-0 text-center border-0 sm:w-auto sm:block">
+												<img src="assets/secure5.png" height="37" alt="" />
+												<p class="text-{{ page.primaryColor }} text-sm mb-0 mt-20 sm:min-h-0">Secure Shopping</p>
+												<p class="text-dark-gray-8 text-xs mb-0 mt-10">SSL secure encryption. The same technology banks use for peace of mind shopping.</p>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="p-20 pb-40 bg-white">
+					<div class="text-center">
+                                                <if condition = "page.fb">
+                                                        <a href="{{ page.fb }}" class="no-underline">
+                                                                <img class="align-middle mb-20" src="assets/fb5.png" class="align-middle" alt="" />
+                                                        </a>
+                                                </if>
+                                                <if condition = "page.twitter">
+                                                        <a href="{{ page.twitter }}" class="no-underline">
+                                                                <img class="align-middle mb-20" src="assets/twitter5.png" class="align-middle" alt="" />
+                                                        </a>
+                                                </if>
+                                                <if condition = "page.insta">
+                                                        <a href="{{ page.insta }}" class="no-underline">
+                                                                <img class="align-middle mb-20" src="assets/insta5.png" class="align-middle" alt="" />
+                                                        </a>
+                                                </if>
+                                                <if condition = "page.pin">
+                                                        <a href="{{ page.pin }}" class="no-underline">
+                                                                <img class="align-middle mb-20" src="assets/pin5.png" class="align-middle" alt="" />
+                                                        </a>
+                                                </if>
+                                                <if condition = "page.youtube">
+                                                        <a href="{{ page.youtube }}" class="no-underline">
+                                                                <img class="align-middle mb-20" src="assets/youtube5.png" class="align-middle" alt="" />
+                                                        </a>
+                                                </if>
+						<if condition = "page.address">
+							<p class="text-xs m-0 text-dark-gray-8">{{ page.address }}</p>
+						</if>
+						<p class="text-xs m-0 text-dark-gray-8">No longer want to receive these emails? Click here to <a class="underline text-{{ page.primaryColor }}" href="#">unsubscribe</a></p>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</block>
+</extends>
