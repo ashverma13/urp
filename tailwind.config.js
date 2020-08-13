@@ -18,7 +18,17 @@ module.exports = {
 				'primary-3': '#52d2a9',
 				'primary-4': '#3e63db',
 				'secondary-4': '#1c42be',
-				'primary-5': '#243348'
+				'primary-5': '#243348',
+				'primary-6': '#94cfb6',
+				'secondary-6': '#ebeef5',
+				'primary-7': '#3f5f52',
+				'secondary-7': '#f07f00',
+				'primary-8': '#3f5f52',
+				'secondary-8': '#2e2e2e',
+				'primary-9': '#732525',
+				'secondary-9': '#f0887d',
+				'primary-10': '#008287',
+				'secondary-10': '#2e2e2e'
 			},
 			'dark-gray': {
 				'8': '#888888',
@@ -51,6 +61,10 @@ module.exports = {
 				'700': '#364152',
 				'800': '#27303f',
 				'900': '#1a202e',
+			},
+			'light-gray': {
+				'5': '#f5f5f5',
+				'6': '#f6f6f6'
 			},
 			red: {
 				'50': '#fdf2f2',
@@ -263,6 +277,22 @@ module.exports = {
 			default: '1',
 		},
 		fontFamily: {
+			brandon: [
+				'Brandon Grotesque',
+				'Arial',
+				'Helvetica',
+				'-apple-system',
+				'"Segoe UI"',
+				'sans-serif',
+			],
+			lora: [
+				'Lora',
+				'Arial',
+				'Helvetica',
+				'-apple-system',
+				'"Segoe UI"',
+				'sans-serif',
+			],
 			oswald: [
 				'Oswald',
 				'Arial',
